@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-color: rgb(184, 3, 3);
+    display: table;
+}
+
+.descuento,.nav {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.banner {
+    background-color: rgb(91, 82, 228);
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav{
+    background-color: rgb(60, 58, 65);
+}
+
+.nav-lista {
+    display: flex;
+    
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 20px;
+    line-height: 45px;
+}
+
+.link-item{
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    margin: 15px;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+}
+
+#acategoria {
+    color: black;
+}
+
+p {
+    display: inline;
+    color: black;
+    padding-top: 0px;
+}
+
+.bannertitle {
+    display: inline-block;
+    color: aliceblue;
+}
+
+#pdescuento {
+    display: block;
+    color:black;
+}
+
+ol {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+li {
+    width: auto;
+    display: inline;
+}
+
+i {
+    display: inline;
+}
+
+.categorias-1,.categorias-2 {
+    text-align: center;
+    margin: 20px;
+    margin: auto;
+    width: fit-content;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+img {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.avisos {
+    color: rgb(189, 75, 75);
+    display: flex;
+    width: initial;
+    height: 100%;
+    margin: 25px;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-avisos {
+    background-color: rgb(158, 218, 124);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 2%
+}
+
+.imgstienda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.imgtienda {
+    height: 200px;
+    width: 200px;
+    margin: 35px;
+}
+
+.pricetag {
+    font-size: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.productname{
+    font-size: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 25px;
+    background-color: rgb(91, 82, 228);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 50px;
+    padding: 50px;
+}
+
+.p-footer {
+    display: block;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.fa-brands {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.Ofertaflash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
